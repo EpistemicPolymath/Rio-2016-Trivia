@@ -1,7 +1,8 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: EpistemicPolymath
+ * In Class Assignment 1
+ * 800768070_InClass01
+ * Jennifer Tillman
  * Date: 1/25/2017
  * Time: 5:13 PM
  */
@@ -103,7 +104,8 @@ information $userName";
 
     td, th {
 
-        border-style: ridge;
+        border-style: double;
+        font-weight: bold;
 
 
     }
