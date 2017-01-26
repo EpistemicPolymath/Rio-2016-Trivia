@@ -181,19 +181,19 @@ information $userName";
 
 
     <tr>
+        <td><img src='img/Lilly.jpg'></td>
+        <td>Lilly King</td>
+        <td><?= $Lilly_answer; ?></td>
 
-        <td><img src='img/Nathan.jpg'></td>
-        <td>Nathan Adrian</td>
-        <td><?= $Nathan_answer; ?></td>
 
     </tr>
 
 
     <tr>
 
-        <td><img src='img/Lilly.jpg'></td>
-        <td>Lilly King</td>
-        <td><?= $Lilly_answer; ?></td>
+        <td><img src='img/Nathan.jpg'></td>
+        <td>Nathan Adrian</td>
+        <td><?= $Nathan_answer; ?></td>
 
     </tr>
 
