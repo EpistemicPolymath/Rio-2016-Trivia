@@ -51,6 +51,13 @@ if ($Caeleb_answer == "Swimming") {
 
 }
 
+if ($Nathan_answer == "Swimming")
+{
+
+    $correct++;
+
+}
+
 
 if ($Lilly_answer == "Swimming") {
 
@@ -175,8 +182,8 @@ information $userName";
 
     <tr>
 
-        <td><img src='img/Lilly.jpg'></td>
-        <td>Lilly King</td>
+        <td><img src='img/Nathan.jpg'></td>
+        <td>Nathan Adrian</td>
         <td><?= $Nathan_answer; ?></td>
 
     </tr>
@@ -184,8 +191,8 @@ information $userName";
 
     <tr>
 
-        <td><img src='img/Nathan.jpg'></td>
-        <td>Nathan Adrian</td>
+        <td><img src='img/Lilly.jpg'></td>
+        <td>Lilly King</td>
         <td><?= $Lilly_answer; ?></td>
 
     </tr>
