@@ -92,99 +92,98 @@ information $userName";
 
 #Echo out all calculated data.
 
-echo "
+?>
 
-    <h1> So, you have selected:</h1> <br>
-    <table>
-
-
-    <tr>
-        <th>Medalist</th>
-        <th>Name</th>
-        <th>Sport</th>
-    </tr>
-    
-    <tr>
-    
-        <td><img src='img/philips.jpg'></td>
-        <td>Micheal Phelps</td>
-        <td>$Phelps_answer</td>
-    
-    </tr>
+<h1> So, you have selected:</h1> <br>
+<table>
 
 
+<tr>
+    <th>Medalist</th>
+    <th>Name</th>
+    <th>Sport</th>
+</tr>
 
-   <tr>
-    
-        <td><img src='img/Simone.jpg'></td>
-        <td>Simone Biles</td>
-        <td>$Simone_answer</td>
-    
-    </tr>
-    
-    
-     <tr>
-    
-        <td><img src='img/Allyson.jpg'></td>
-        <td>Allyson Felix</td>
-        <td>$Allyson_answer</td>
-    
-    </tr>
-    
-    
-    <tr>
-    
-        <td><img src='img/Caeleb.jpg'></td>
-        <td>Caeleb Dressel</td>
-        <td>$Caeleb_answer</td>
-    
-    </tr>
-    
-    
-    <tr>
-    
-        <td><img src='img/Katie.jpg'></td>
-        <td>Katy Ledecky</td>
-        <td>$Katie_answer</td>
-    
-    </tr>
-    
-    
-    <tr>
-    
-        <td><img src='img/Lilly.jpg'></td>
-        <td>Lilly King</td>
-        <td>$Nathan_answer</td>
-    
-    </tr>
-    
-    
-    <tr>
-    
-        <td><img src='img/Nathan.jpg'></td>
-        <td>Nathan Adrian</td>
-        <td>$Lilly_answer</td>
-    
-    </tr>
-    
-    
-     <tr>
-    
-        <td><img src='img/Madeline.jpg'></td>
-        <td>Madeline Dirado</td>
-        <td>$Madeline_answer</td>
-    
-    </tr>
+<tr>
+
+    <td><img src='img/philips.jpg'></td>
+    <td>Micheal Phelps</td>
+    <td><?= $Phelps_answer;?></td>
+
+</tr>
 
 
 
+<tr>
 
-     </table>
-     
-     <p>
-     
-     $totalScore <br>
-     $message
-     
-     </p>
-";
+    <td><img src='img/Simone.jpg'></td>
+    <td>Simone Biles</td>
+    <td><?= $Simone_answer;?></td>
+
+</tr>
+
+
+ <tr>
+
+    <td><img src='img/Allyson.jpg'></td>
+    <td>Allyson Felix</td>
+    <td><?= $Allyson_answer;?></td>
+
+</tr>
+
+
+<tr>
+
+    <td><img src='img/Caeleb.jpg'></td>
+    <td>Caeleb Dressel</td>
+    <td><?= $Caeleb_answer;?></td>
+
+</tr>
+
+
+<tr>
+
+    <td><img src='img/Katie.jpg'></td>
+    <td>Katy Ledecky</td>
+    <td><?= $Katie_answer;?></td>
+
+</tr>
+
+
+<tr>
+
+    <td><img src='img/Lilly.jpg'></td>
+    <td>Lilly King</td>
+    <td><?= $Nathan_answer;?></td>
+
+</tr>
+
+
+<tr>
+
+    <td><img src='img/Nathan.jpg'></td>
+    <td>Nathan Adrian</td>
+    <td><?= $Lilly_answer;?></td>
+
+</tr>
+
+
+ <tr>
+
+    <td><img src='img/Madeline.jpg'></td>
+    <td>Madeline Dirado</td>
+    <td><?= $Madeline_answer;?></td>
+
+</tr>
+
+
+
+
+ </table>
+
+ <p>
+
+ <?= $totalScore;?> <br>
+ <?= $message;?>
+
+ </p>
