@@ -8,7 +8,7 @@
  */
 
 # Declare all variables
-
+/*
 $userName = $_POST['userName'];
 $Phelps_answer = $_POST['Phelps_answer'];
 $Simone_answer = $_POST['Simone_answer'];
@@ -18,6 +18,18 @@ $Katie_answer = $_POST['Katie_answer'];
 $Nathan_answer = $_POST['Nathan_answer'];
 $Lilly_answer = $_POST['Lilly_answer'];
 $Madeline_answer = $_POST['Madeline_answer'];
+*/
+
+
+$userName = filter_input(INPUT_POST, 'userName');
+$Phelps_answer = filter_input(INPUT_POST, 'Phelps_answer');
+$Simone_answer = filter_input(INPUT_POST, 'Simone_answer');
+$Allyson_answer = filter_input(INPUT_POST, 'Allyson_answer');
+$Caeleb_answer = filter_input(INPUT_POST, 'Caeleb_answer');
+$Katie_answer = filter_input(INPUT_POST, 'Katie_answer');
+$Nathan_answer = filter_input(INPUT_POST, 'Nathan_answer');
+$Lilly_answer = filter_input(INPUT_POST, 'Lilly_answer');
+$Madeline_answer = filter_input(INPUT_POST, 'Madeline_answer');
 
 #Declare correct variable and compare answers for correctness while incrementing the correct var
 $correct = 0;
